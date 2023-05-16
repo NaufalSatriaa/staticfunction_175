@@ -11,4 +11,8 @@ public:
 	string getJudul() {
 		return this->judul;
 	}
-};
+} bukunya;
+
+int main() {
+
+}
