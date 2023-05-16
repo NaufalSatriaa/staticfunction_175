@@ -25,3 +25,10 @@ angka::~angka() {
 	cout << "Alamat Array sudah dilepaskan" << endl;
 
 }
+
+void angka::cetakData() {
+	for (int i = 1; i <= panjang; i++) {
+		cout << i << " = " << arr[i] << endl;
+
+	}
+}
