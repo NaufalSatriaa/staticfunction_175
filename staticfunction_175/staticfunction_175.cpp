@@ -8,4 +8,7 @@ public:
 		this->judul = judul;
 		return *this;
 	}
+	string getJudul() {
+		return this->judul;
+	}
 };
