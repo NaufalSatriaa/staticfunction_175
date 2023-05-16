@@ -6,19 +6,20 @@ private:
 	int* arr;
 	int panjang;
 public:
-	angka(int);
-	~angka();
+	angka(int); //constructor
+	~angka(); //destruktor
 	void cetakData();
 	void isiData();
 };
 
-angka::angka(int i) {
+//definisi member function
+angka::angka(int i) { //constructor
 	panjang = i;
 	arr = new int[i];
 	isiData();
 }
 
-angka::~angka() {
+angka::~angka() { //destruktor
 	cout << endl;
 	cetakData();
 	delete[]arr;
@@ -41,9 +42,9 @@ void angka::isiData() {
 }
 
 int main() {
-	angka belajarcpp(3);
-	angka* ptrbelajarcpp = new angka(5);
-	delete ptrbelajarcpp;
+	angka belajarcpp(3); //constructor dipanggil
+	angka* ptrbelajarcpp = new angka(5); //constructor dipanggil
+	delete ptrbelajarcpp; //destruktor dipanggil
 
 	return 0;
 }
