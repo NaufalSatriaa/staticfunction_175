@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "destruktor_175", "destrukto
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "konstruktor_175", "konstruktor_175\konstruktor_175.vcxproj", "{49427203-1CD7-4A0B-AEDE-78CB5E517D6F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mbrstaticfunction", "mbrstaticfunction\mbrstaticfunction.vcxproj", "{DE17EDF9-2DE9-4572-81D1-4A8E45ECBFA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{49427203-1CD7-4A0B-AEDE-78CB5E517D6F}.Release|x64.Build.0 = Release|x64
 		{49427203-1CD7-4A0B-AEDE-78CB5E517D6F}.Release|x86.ActiveCfg = Release|Win32
 		{49427203-1CD7-4A0B-AEDE-78CB5E517D6F}.Release|x86.Build.0 = Release|Win32
+		{DE17EDF9-2DE9-4572-81D1-4A8E45ECBFA8}.Debug|x64.ActiveCfg = Debug|x64
+		{DE17EDF9-2DE9-4572-81D1-4A8E45ECBFA8}.Debug|x64.Build.0 = Debug|x64
+		{DE17EDF9-2DE9-4572-81D1-4A8E45ECBFA8}.Debug|x86.ActiveCfg = Debug|Win32
+		{DE17EDF9-2DE9-4572-81D1-4A8E45ECBFA8}.Debug|x86.Build.0 = Debug|Win32
+		{DE17EDF9-2DE9-4572-81D1-4A8E45ECBFA8}.Release|x64.ActiveCfg = Release|x64
+		{DE17EDF9-2DE9-4572-81D1-4A8E45ECBFA8}.Release|x64.Build.0 = Release|x64
+		{DE17EDF9-2DE9-4572-81D1-4A8E45ECBFA8}.Release|x86.ActiveCfg = Release|Win32
+		{DE17EDF9-2DE9-4572-81D1-4A8E45ECBFA8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
