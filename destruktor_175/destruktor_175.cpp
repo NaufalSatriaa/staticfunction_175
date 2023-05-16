@@ -39,3 +39,11 @@ void angka::isiData() {
 		cin >> arr[i];
 	}
 }
+
+int main() {
+	angka belajarcpp(3);
+	angka* ptrbelajarcpp = new angka(5);
+	delete ptrbelajarcpp;
+
+	return 0;
+}
